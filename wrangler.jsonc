@@ -1,6 +1,0 @@
-{
-  "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "portfolio-website-231225",
-  "compatibility_date": "2024-12-24",
-  "pages_build_output_dir": "."
-}

@@ -1,5 +1,6 @@
+# Cloudflare Pages Configuration
 name = "yusuf-portfolio"
 compatibility_date = "2024-12-24"
 
-[site]
-bucket = "."
+# This file is optional for Pages deployments
+# The actual deployment is handled through Cloudflare Pages dashboard or CLI

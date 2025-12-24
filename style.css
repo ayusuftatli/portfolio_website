@@ -135,6 +135,11 @@ section {
 }
 
 /* Projects Grid */
+img {
+    width: 100%;
+    height: auto;
+}
+
 .projects-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

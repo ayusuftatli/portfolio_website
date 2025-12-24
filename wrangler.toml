@@ -1,5 +1,5 @@
 # Cloudflare Pages Configuration
-name = "yusuf-portfolio"
+name = "portfoliowebsite"
 compatibility_date = "2024-12-24"
 
 # Deploy static assets from the root directory

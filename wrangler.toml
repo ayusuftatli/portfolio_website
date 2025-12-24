@@ -2,5 +2,6 @@
 name = "yusuf-portfolio"
 compatibility_date = "2024-12-24"
 
-# This file is optional for Pages deployments
-# The actual deployment is handled through Cloudflare Pages dashboard or CLI
+# Deploy static assets from the root directory
+[assets]
+directory = "."

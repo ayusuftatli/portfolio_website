@@ -64,6 +64,16 @@ h3,
     max-width: var(--container-width);
     margin: 0 auto;
     padding: 0 var(--spacing-md);
+
+}
+
+#head-container {
+    max-width: var(--container-width);
+    margin: 0 auto;
+    padding: 0 var(--spacing-md);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 section {
@@ -114,6 +124,35 @@ section {
 .nav-links a:hover {
     color: var(--accent-color);
 }
+
+/*Languae Switcher*/
+.language-nav {
+    display: flex;
+    align-items: center;
+}
+
+#language-switcher {
+    font-family: var(--font-mono);
+    font-size: 0.95rem;
+    color: var(--tex-light);
+    background-color: transparent;
+    border: 1px solid var(--border-color);
+    padding: 0.4rem 0.75rem;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: color 0.2s ease, border-color 0.2s ease;
+}
+
+#language-switcher:hover {
+    color: var(--accent-color);
+    border-color: var(--accent-color);
+}
+
+#language-switcher:focus {
+    outline: none;
+    border-color: var(--accent-color);
+}
+
 
 /* Hero Section */
 .hero-section {
@@ -232,7 +271,8 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 2rem;
-    border-top: 1px solid var(--border-color);
+
+    /*border-top: 1px solid var(--border-color);*/
     border-bottom: 1px solid var(--border-color);
     padding: 3rem 0;
 }
@@ -352,19 +392,42 @@ img {
         gap: 2rem;
     }
 
-    .nav {
-        flex-direction: column;
+    .container {
+        flex-wrap: wrap;
         gap: 1rem;
-        align-items: flex-start;
+        align-items: center;
+    }
+
+    .logo {
+        flex: 0 0 auto;
+    }
+
+    .language-nav {
+        flex: 0 0 auto;
+        margin-left: auto;
+        order: 2;
+    }
+
+    #language-switcher {
+        width: auto;
+        font-size: 0.85rem;
+        padding: 0.3rem 0.6rem;
+    }
+
+    .nav {
+        flex: 1 1 100%;
+        order: 3;
     }
 
     .nav-links {
         width: 100%;
-        justify-content: space-between;
-        gap: 0;
+        justify-content: flex-start;
+        gap: 1rem;
+        flex-wrap: wrap;
     }
 
     .nav-links a {
-        padding: 0.5rem 0;
+        padding: 0.25rem 0;
+        font-size: 0.9rem;
     }
 }

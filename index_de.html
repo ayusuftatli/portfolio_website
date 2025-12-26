@@ -1,19 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yusuf Tatlı | Map Developer</title>
-    <meta name="description" content="Yusuf Tatlı' - Data Solutions">
-
+    <title>Yusuf Tatlı | Kartenentwickler</title>
+    <meta name="description" content="Yusuf Tatlı - Datenlösungen">
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
         href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap"
         rel="stylesheet">
-
     <!-- Styles -->
     <link rel="stylesheet" href="style.css">
 </head>
@@ -25,114 +23,109 @@
             <nav class="nav">
 
                 <ul class="nav-links">
-                    <li><a href="#projects">Projects</a></li>
-                    <li><a href="#technologies">Technologies</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#projects">Projekten</a></li>
+                    <li><a href="#technologies">Technologien</a></li>
+                    <li><a href="#about">Über mich</a></li>
+                    <li><a href="#contact">Kontaktieren</a></li>
                 </ul>
             </nav>
             <nav class="language-nav">
                 <select id="language-switcher" name="language-switcher">
-                    <option value="english" selected>English</option>
-                    <option value="german">Deutsch</option>
+                    <option value="english">English</option>
+                    <option value="german" selected>Deutsch</option>
                 </select>
             </nav>
         </div>
     </header>
-
     <main>
         <section id="hero" class="hero-section">
             <div class="container">
-                <h1 class="hero-title">Hi, I'm Yusuf.</h1>
-                <p class="hero-subtitle">I create full-stack solutions to your data problems. Specializing in geospatial
-                    intelligence.</p>
+                <h1 class="hero-title">Hallo, ich bin Yusuf.</h1>
+                <p class="hero-subtitle">Ich erstelle Full-Stack-Lösungen für Ihre Datenprobleme. Spezialisiert auf
+                    geospatiale Intelligenz.</p>
             </div>
         </section>
-
         <section id="projects" class="projects-section">
             <div class="container">
-                <h2 class="section-title">Projects</h2>
+                <h2 class="section-title">Projekte</h2>
                 <div class="projects-grid">
                     <!-- Project 1 -->
                     <article class="project-card">
                         <a href="https://agri-demo.up.railway.app/" class="project-link" target="_blank"
                             rel="noopener noreferrer">
                             <div class="project-image">
-                                <img src="assets/agri_map.png" alt="Agricultural Parcel Intelligence">
+                                <img src="assets/agri_map.png" alt="Intelligenz für landwirtschaftliche Parzellen">
                             </div>
                             <div class="project-content">
                                 <span class="project-stack">Mapbox GL JS · Node.js · Python · PostgreSQL</span>
-                                <h3 class="project-title">Agricultural Parcel Intelligence</h3>
-                                <p class="project-description">Interactive GIS platform for analyzing 50,000+
-                                    agricultural parcels with real-time soil classification data. Features advanced
-                                    multi-criteria search, vector tile visualization, and custom spatial algorithms for
-                                    point-in-polygon soil sampling across parcel boundaries. </p>
+                                <h3 class="project-title">Intelligenz für landwirtschaftliche Parzellen</h3>
+                                <p class="project-description">Interaktive GIS-Plattform zur Analyse von mehr als 50.000
+                                    landwirtschaftlichen Parzellen mit Echtzeit-Daten zur Bodenklassifizierung. Mit
+                                    erweiterter Mehrkriteriensuche, Vektorkachel-Visualisierung und speziell
+                                    entwickelten räumlichen Algorithmen für Point-in-Polygon Bodenprobenentnahme über
+                                    Parzellengrenzen hinweg.</p>
                             </div>
                         </a>
-
                     </article>
-
                     <!-- Project 2 -->
                     <article class="project-card">
                         <a href="https://berlin-public-transport-map-production.up.railway.app/" class="project-link"
                             target="_blank" rel="noopener noreferrer">
                             <div class="project-image">
-                                <img src="assets/berlin.png" alt="Berlin Transit Live Map">
+                                <img src="assets/berlin.png" alt="Berliner ÖPNV-Live-Karte">
                             </div>
                             <div class="project-content">
                                 <span class="project-stack">Leaflet · Node.js</span>
-                                <h3 class="project-title">Berlin Transit Live Map</h3>
-                                <p class="project-description">Real-time tracking of 1000+ public transit vehicles
-                                    across Berlin's U-Bahn, S-Bahn, tram, and bus networks. Features live filtering,
-                                    route overlays, and optimized API polling with in-memory caching.</p>
+                                <h3 class="project-title">Berliner ÖPNV-Live-Karte</h3>
+                                <p class="project-description">Echtzeit-Tracking von über 1.000 Fahrzeugen des
+                                    öffentlichen Nahverkehrs in Berlins U-Bahn, S-Bahn, Straßenbahn- und Busnetzen. Mit
+                                    Live-Filterung, Routenüberlagerungen und optimiertem API-Polling mit
+                                    In-Memory-Caching.</p>
                             </div>
                         </a>
                     </article>
-
                     <!-- Project 3 -->
                     <article class="project-card">
                         <a href="https://github.com/ayusuftatli/shopify_automation" class="project-link" target="_blank"
                             rel="noopener noreferrer">
                             <div class="project-image">
-                                <img src="assets/shopify.png" alt="Shopify Dropshipping Sync Automation">
+                                <img src="assets/shopify.png" alt="Shopify Dropshipping-Sync-Automatisierung">
                             </div>
                             <div class="project-content">
                                 <span class="project-stack">Flask · PostgreSQL · Shopify Admin API · Pandas ·
                                     BeautifulSoup4</span>
-                                <h3 class="project-title">Shopify Dropshipping Sync Automation</h3>
-                                <p class="project-description">Automated system that syncs 1000+ Shopify products with
-                                    supplier CSV feeds in real-time. Monitors and updates prices, inventory, and
-                                    availability using change detection and PostgreSQL storage. Features a
-                                    dashboard for manual control and automated cron scheduling for hands-free
-                                    dropshipping.</p>
+                                <h3 class="project-title">Shopify Dropshipping-Sync-Automatisierung</h3>
+                                <p class="project-description">Automatisiertes System, das über 1000 Shopify-Produkte in
+                                    Echtzeit mit Lieferanten-CSV-Feeds synchronisiert. Überwacht und aktualisiert
+                                    Preise, Lagerbestände und Verfügbarkeiten mithilfe von Änderungserkennung und
+                                    PostgreSQL-Speicherung. Bietet ein Dashboard für manuelle Steuerung sowie
+                                    automatisierte Cron-Planung für reibungsloses Dropshipping.</p>
                             </div>
                         </a>
                     </article>
-
                     <!-- Project 4 -->
                     <article hidden class="project-card">
                         <a href="#" class="project-link" target="_blank" rel="noopener noreferrer">
                             <div class="project-image">
-                                <div class="img-placeholder">Map Preview 04</div>
+                                <div class="img-placeholder">Karten-Vorschau 04</div>
                             </div>
                             <div class="project-content">
                                 <span class="project-stack">Mapbox · Deck.gl</span>
-                                <h3 class="project-title">Global Trade Routes</h3>
-                                <p class="project-description">3D visualization of shipping lanes and cargo volume.
-                                    Highlights the interconnected nature of global commerce.</p>
+                                <h3 class="project-title">Globale Handelsrouten</h3>
+                                <p class="project-description">3D-Visualisierung von Schifffahrtsrouten und
+                                    Frachtvolumen. Betont die vernetzte Natur des globalen Handels.</p>
                             </div>
                         </a>
                     </article>
                 </div>
             </div>
         </section>
-
         <section id="technologies" class="technologies-section">
             <div class="container">
-                <h2 class="section-title">Technologies</h2>
+                <h2 class="section-title">Technologien</h2>
                 <div class="tech-grid">
                     <div class="tech-category">
-                        <h3 class="tech-header">Mapping & GIS</h3>
+                        <h3 class="tech-header">Kartographie & GIS</h3>
                         <ul class="tech-list">
                             <li>Mapbox GL JS</li>
                             <li>Turf.js</li>
@@ -141,14 +134,14 @@
                         </ul>
                     </div>
                     <div class="tech-category">
-                        <h3 class="tech-header">Data Analysis</h3>
+                        <h3 class="tech-header">Datenanalyse</h3>
                         <ul class="tech-list">
                             <li>Python (Pandas/GeoPandas)</li>
                             <li>PostgreSQL / PostGIS</li>
                         </ul>
                     </div>
                     <div class="tech-category">
-                        <h3 class="tech-header">Frameworks & Libraries</h3>
+                        <h3 class="tech-header">Frameworks & Bibliotheken</h3>
                         <ul class="tech-list">
                             <li>React</li>
                             <li>Next.js</li>
@@ -159,10 +152,9 @@
                 </div>
             </div>
         </section>
-
         <section id="about" class="about-section">
             <div class="container">
-                <h2 class="section-title">About</h2>
+                <h2 class="section-title">Über mich</h2>
                 <div class="about-content">
                     <p>
                         I specialize in geospatial intelligence and data visualization, transforming complex datasets
@@ -174,23 +166,21 @@
             </div>
         </section>
     </main>
-
     <footer id="contact" class="site-footer">
         <div class="container">
-            <h2 class="footer-title">Get in Touch</h2>
+            <h2 class="footer-title">Kontaktieren Sie mich</h2>
             <div class="social-links">
-                <a href="mailto:me@ayusuftatli.com" class="social-link">Email</a>
+                <a href="mailto:me@ayusuftatli.com" class="social-link">E-Mail</a>
                 <a href="" target="_blank" rel="noopener noreferrer" class="social-link">LinkedIn</a>
                 <a href="https://github.com/ayusuftatli" target="_blank" rel="noopener noreferrer"
                     class="social-link">GitHub</a>
             </div>
             <p class="copyright">&copy; 2025 Yusuf Tatlı</p>
         </div>
-        <button id="scrollToTopBtn" aria-label="Scroll to top" class="scroll-top-btn hidden">
+        <button id="scrollToTopBtn" aria-label="Nach oben scrollen" class="scroll-top-btn hidden">
             ↑
         </button>
     </footer>
-
     <script src="script.js"></script>
 </body>
 

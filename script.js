@@ -33,4 +33,15 @@ document.addEventListener('DOMContentLoaded', () => {
             }
         });
     });
+
+    const languageSwitcher = document.querySelector("#language-switcher");
+
+    languageSwitcher.addEventListener("change", (e) => {
+        if (e.target.value === "english") {
+            window.location.href = 'index.html';
+        } else if (e.target.value = "german") {
+            window.location.href = "index_de.html";
+        }
+    })
 });
+
